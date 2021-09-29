@@ -1,9 +1,13 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import Layout from "components/Layout";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Header from "components/Header";
-
-const MVP = lazy(() => import("./containers/MVP"));
+import MVP from "containers/MVP";
 
 const App = () => {
   return (
@@ -11,11 +15,10 @@ const App = () => {
       <Header />
       <Layout>
         <Router>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Switch>
-              <Route exact path="/" component={MVP} />
-            </Switch>
-          </Suspense>
+          <Switch>
+            <Route exact path="/" component={MVP} />
+            <Redirect to="/" />
+          </Switch>
         </Router>
       </Layout>
     </div>
