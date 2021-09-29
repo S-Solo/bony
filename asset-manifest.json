@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bony/static/css/main.9e525a89.chunk.css",
+    "main.js": "/bony/static/js/main.22824cbd.chunk.js",
+    "main.js.map": "/bony/static/js/main.22824cbd.chunk.js.map",
+    "runtime-main.js": "/bony/static/js/runtime-main.bd78909e.js",
+    "runtime-main.js.map": "/bony/static/js/runtime-main.bd78909e.js.map",
+    "static/js/2.47d654d1.chunk.js": "/bony/static/js/2.47d654d1.chunk.js",
+    "static/js/2.47d654d1.chunk.js.map": "/bony/static/js/2.47d654d1.chunk.js.map",
+    "static/js/3.f8be4498.chunk.js": "/bony/static/js/3.f8be4498.chunk.js",
+    "static/js/3.f8be4498.chunk.js.map": "/bony/static/js/3.f8be4498.chunk.js.map",
+    "static/js/4.6eb91bf4.chunk.js": "/bony/static/js/4.6eb91bf4.chunk.js",
+    "static/js/4.6eb91bf4.chunk.js.map": "/bony/static/js/4.6eb91bf4.chunk.js.map",
+    "index.html": "/bony/index.html",
+    "static/css/main.9e525a89.chunk.css.map": "/bony/static/css/main.9e525a89.chunk.css.map",
+    "static/js/2.47d654d1.chunk.js.LICENSE.txt": "/bony/static/js/2.47d654d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd78909e.js",
+    "static/js/2.47d654d1.chunk.js",
+    "static/css/main.9e525a89.chunk.css",
+    "static/js/main.22824cbd.chunk.js"
+  ]
+}
